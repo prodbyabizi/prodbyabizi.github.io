@@ -1,0 +1,82 @@
+.Table-box {
+  border: 3px solid black;       
+  padding: 30px;                
+  width: fit-content;            
+  margin: 100px;             
+  background-color: white;  
+  border-radius: 0px;           
+  margin-top: 30px;
+}
+
+table {
+     border-bottom: 3px solid black; 
+      border-collapse: collapse; 
+      width: 600px;
+
+   
+           
+}
+
+th{
+    text-align: left;
+    
+}
+
+th, td {
+    
+    padding: 6px;
+}
+
+tr:nth-child(odd) {
+    background-color: yellow;
+}
+
+td:first-child, th:first-child {
+      border-right: 3px solid black;
+    }
+
+th:last-child,
+    td:last-child {
+      text-align: right;
+    }
+
+tr:not(:last-child) td, tr:not(:last-child) th {
+      border-bottom: 3px solid black;
+    }
+
+.EmpDep-table {
+    border-collapse: collapse;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    
+    
+    tr:not(:last-child) td:nth-child(1),
+    tr:not(:last-child) td:nth-child(2),
+    tr:not(:last-child) td:nth-child(3) {
+    border-right: 3px solid black; 
+}
+
+
+    td.no-underline {
+        border-bottom: none;
+    }
+
+    th.no-underline{
+        border-bottom: none;
+    }
+
+    td.white-section {
+    background-color: white;
+    }
+
+    th.white-section {
+    background-color: white;
+    }
+
+
+    
+    
+    
+}

@@ -1,0 +1,78 @@
+/* html style */
+
+html {
+
+    background-color: yellow;
+}
+
+
+/* body style */
+body {
+
+    border: 5px double blue;
+    width: 650px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/*Header style*/
+h1 {
+    color: blue;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    
+
+}
+
+.float-left {
+  float: left;
+  margin-right: 15px;  
+  margin-bottom: 10px; 
+  padding: 0;          
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    
+    
+}
+h3 {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    
+}
+
+/*site style*/
+cite {
+  color: blue;
+  font-style: normal;
+}
+
+
+
+blockquote {
+  
+  margin-left: 0px;
+}
+
+ul {
+
+
+  padding-left: 20px; 
+}
+
+
+
+/* footer */
+footer {
+    
+    border-top: 3px solid blue;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
