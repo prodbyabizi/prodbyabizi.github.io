@@ -1,0 +1,74 @@
+body {
+    background-image: url('../images/bats.gif');
+}
+
+.imgback{
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    border: 4px solid black;
+    box-shadow: 0 0 30px ;
+    margin: auto;
+}
+
+
+.indent{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.first::first-letter{
+    font-size: 200%;
+}
+
+header img{
+    float: left;
+    padding-left: 20px;
+}
+header{
+    background: linear-gradient(45deg, white 0%, orange 50%, black 100%);
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid black;
+}
+h1 {
+    color: black;
+    font-style: italic;
+    text-shadow: 2px 2px 4px black;
+    font-size: 250%;
+    padding-left: 100px;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+header h2{
+    padding-left: 100px;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+a {
+    color: orange;
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: green;
+}
+ul li{
+    padding-top: 4px;
+    margin-top: -4px;
+}
+footer{
+    background: linear-gradient(45deg, black 0%, orange 50%, white 100%);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 3px solid black;
+    
+}
+
+
